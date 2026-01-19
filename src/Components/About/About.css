@@ -114,12 +114,13 @@
   .about {
     gap: 80px;
     margin: 50px 70px;
-    align-items: start;
+    align-items: stretch;
   }
 
   .about-title h1 {
     font-size: 50px;
     padding: 0;
+    text-align: center;
   }
 
   .about-title img {

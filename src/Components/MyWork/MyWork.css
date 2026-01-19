@@ -66,30 +66,39 @@
 
 @media (max-width: 768px) {
   .mywork {
-    margin: 50px 70px;
+    /* margin: 50px 70px;
     gap: 50px;
-    align-items: start;
+    align-items: start; */
+    margin: 40px auto;
+    padding: 0 50px;
+    gap: 40px;
+    align-items: stretch;
+  }
+
+  .mywork-title {
+    margin-bottom: 30px;
   }
 
   .mywork-title h1 {
     padding: 0;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: clamp(32px, 6vw, 80px);
+    text-align: center;
   }
 
   .mywork-title img {
-    width: 130px;
-    margin-right: 20px;
+    width: 90px;
+    right: 60px;
   }
 
   .mywork-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .mywork-container img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 
   .mywork-showmore {
