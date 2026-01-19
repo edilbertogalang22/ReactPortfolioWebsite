@@ -8,7 +8,7 @@ const Profile = () => {
   useEffect(() => {
     // initialize Typed.js
     const typed = new Typed(".text", {
-      strings: ["Web Developer", "Junior Developer", "Frontend Developer"],
+      strings: ["Junior Front-End Developer", "Freelancer", "Video Editor"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -41,7 +41,6 @@ const Profile = () => {
           </AnchorLink>
         </div>
         <div className="profile-resume">My Resume</div>
-        
       </div>
     </div>
   );
